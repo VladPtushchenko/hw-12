@@ -6,7 +6,7 @@ public class hw_12 {
 
     public static void main(String[] args) {
         try {
-            int moleculeAmount = 3
+            int moleculeAmount = 3;
             ExecutorService threadPool = Executors.newFixedThreadPool(3);
             H2OGenerator GeneratorH2O = new H2OGenerator();
             for(int i = 0; i < moleculeAmount; i++) {
